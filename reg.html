@@ -1,0 +1,117 @@
+
+<html>
+<head>
+<style>
+body, html
+{
+height: 100%;
+}
+.bg-img
+{
+background-image: url("G:\wel1.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no repeat;
+background-size: auto;
+position: relative;
+}
+body
+{
+text-align: center;
+align: center;
+
+}
+input[type=text],[type=password],[type=number]
+{
+width: 20%;
+margin: 8px 0;
+padding: 7px 10px;
+display: inline-block;
+border:3px solid #ccc;
+box-sizing: border-box;
+}
+button
+{
+
+background-color:#4CAF50;
+width: 10%;
+padding: 9px 5px;
+margin:10px 0;
+cursor:pointer;
+border:none;
+color:#ffffff;
+font-size: 15px;
+margin-left: 80px;
+}
+
+button:hovor
+{
+opacity:0.8;
+}
+
+#em
+{
+margin-left:30px;
+}
+
+#cy
+{
+margin-left:30px;
+
+}
+</style>
+<title>Registration Form</title>
+
+</head>
+
+<body >
+
+<div class="bg-img">
+ <form name="reg" action="reg" method="post">
+<h1>Registration Form</h1>
+
+
+
+ <label for="fname"  id="fn"> First Name :</label>
+ <input type="text" name="fname" id="fname" placeholder="Enter Your First Name"><br><br>
+
+ <label for="lname"  id="ln"> Last Name :</label>
+ <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name"><br><br>
+ 
+  <label for="uname"  id="un">UserName :</label>
+ <input type="text" name="uname" id="uname" placeholder="Enter Your Usename Name"><br><br>
+ 
+  <label for="pword"  id="ps"> Password :</label>
+ <input type="password" name="pword" id="pword" placeholder="Enter Your Password"><br><br>
+ 
+  <label for="email"  id="em">E-mail  :</label>
+ <input type="text" name="email" id="email" placeholder="Enter Your E-mail Name"><br><br>
+ 
+  <label for="mobile_no"  id="mn"> Mobile No :</label>
+ <input type="text" name="mobile_no" id="mobile_no" placeholder="Enter Your Mobile Name"><br><br>
+ 
+ 
+ <label for="city" id="cy">City :</label>
+ <select name="city" id="city">
+ <option>Select</option>
+ <option>Pune</option>
+  <option>Mumbai</option>
+   <option>Delhi</option>
+    <option>Hydrabad</option>
+     <option>Bengluru</option>
+      <option>Nashik</option>
+       <option>Noida</option>
+        <option>Gurugaon</option>
+         <option>Aurangabd</option>
+         
+ 
+ </select><br>
+ 
+ <button type="submit" value="submit" id="btn">Register</button>
+ <a href="login.html">Back To Home</a>
+ <br>
+</form>
+
+</div>
+</body>
+</html>

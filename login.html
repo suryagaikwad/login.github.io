@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.bg-img
+{
+
+background-image: url("G:\log.jpg");
+min-height: 800px;
+background-position: center;
+background-repeat: no repeat;
+background-size: cover;
+position: relative;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	width:100%;
+	
+	
+}
+input[type=text], input[type=password]
+{
+	width:20%;
+	padding: 7px 10px;
+	margin: 10px 0;
+	display:inline-block;
+	border: 4px solid #ccc;
+	box-sizing: border-box; 
+}
+button
+{
+background-color:#4CAF50;
+width: 10%;
+padding: 9px 5px;
+margin:10px 0px 0px 35px;
+cursor:pointer;
+border:none;
+color:#ffffff;
+font-size: 15px;
+font-weight: bold;
+}
+
+buton:hovor
+{
+opacity:0.8;
+}
+
+#un, #ps
+{
+font-family:'Lato', sans-serif;
+color: gray;
+}
+
+#container
+{
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width:600;
+height: 300px;
+text-align: center;
+}
+
+
+
+</style>
+<title>Log in </title>
+
+</head>
+<body>
+<div class="bg-img">
+<div id="container">
+<form method ="post" action="login">
+<div class ="border-box">
+<h2 background-color="pink">Login Form</h2>
+
+<label for="uname" id="un">Username</label> 
+<input type="text" name ="uname" placeholder="Enter Username" id="uname"><br><br>
+<label for="pass" id="ps">Password</label> 
+<input type="password" name ="pass" placeholder="Enter password" id="pass"><br><br>
+<button type="submit" value="Login" id="submit" onClick="alert('Login Successfully ')">Login</button>
+<a href="reg.html">New User</a>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
